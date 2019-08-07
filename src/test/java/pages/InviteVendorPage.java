@@ -12,6 +12,9 @@ import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.support.FindBy;
 import utilities.RandomGenerator;
 
+import java.util.concurrent.TimeUnit;
+
+import static utilities.LoadProperties.getValueFromPropertyFile;
 
 
 public class InviteVendorPage extends PageObject {
@@ -40,7 +43,7 @@ public class InviteVendorPage extends PageObject {
     @FindBy(xpath = "//span[text()='Submit']")
     public WebElementFacade submitButton;
 
-    @FindBy(xpath = "//span[@class='Polaris-Avatar__Initials']")
+    @FindBy(xpath = "//p[text()='Seller']")
     public WebElementFacade sideMenu;
     @FindBy(xpath = "//button/div[text()='Log Out']")
     public WebElementFacade logout;
@@ -65,25 +68,24 @@ public class InviteVendorPage extends PageObject {
 
 
     public void login(String userId,String userPassword) {
-        waitABit(5000);
+        waitABit(2000);
         email.sendKeys(userId);
        password.sendKeys(userPassword);
         loginButton.click();
 
     }
     public void addVendorPage(){
+        waitABit(5000);
         waitFor(menu).click();
         waitFor(vendorOption).click();
+        waitABit(3000);
         waitFor(addVendor).click();
     }
 
 
     public void inviteVendor() {
-        waitFor(howToInvite).click();
-        Select ways = new Select(howToInvite);
-        ways.selectByVisibleText("Invite vendors to self register using our form");
         waitABit(2000);
-        Serenity.setSessionVariable("email").to("payal" +  RandomGenerator.randomInteger(3) + "@mailinator.com");
+        Serenity.setSessionVariable("email").to("payal" +  RandomGenerator.randomInteger(4) + "@mailinator.com");
         emailField.type(Serenity.sessionVariableCalled("email"));
         vendorId = emailField.getAttribute("value");
         emailId = emailField.getAttribute("value");
@@ -93,12 +95,14 @@ public class InviteVendorPage extends PageObject {
 
     }
      public void inviteDropdown(){
-        waitFor(howToInvite).click();
+        howToInvite.withTimeoutOf(10,TimeUnit.SECONDS).click();
+//        waitFor(howToInvite).click();
         Select ways = new Select(howToInvite);
         ways.selectByVisibleText("Invite vendors to self register using our form");
     }
      public void registeredMail(){
-         emailField.sendKeys("payaltask@mailinator.com");
+         String emailFieldValue =getValueFromPropertyFile("testData","RegesteredMail");
+         emailField.sendKeys(emailFieldValue);
          submitButton.click();
          waitABit(5000);
 
@@ -106,19 +110,16 @@ public class InviteVendorPage extends PageObject {
 
      public void assertRegistered(){
         waitFor(menu).click();
-        waitABit(5000);
+        waitABit(2000);
         waitFor(activityLogs).click();
         waitABit(5000);
         Assert.assertTrue("Already Registered",searchMail.isVisible());
 
     }
 
-    public String getEmail(){
-        return emailId;
-    }
-
     public void logout() {
-        waitFor(sideMenu).click();
+        waitABit(2000);
+        sideMenu.withTimeoutOf(20, TimeUnit.SECONDS).click();
         waitFor(logout).click();
     }
 

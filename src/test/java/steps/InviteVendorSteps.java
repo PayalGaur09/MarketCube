@@ -28,11 +28,9 @@ public class InviteVendorSteps {
 
     @When("^User login with a valid credentials$")
     public void userLoginWithAValidCredentials() throws InterruptedException {
-        Thread.sleep(3000);
-        if (!isLogin) {
+
             inviteVendorPage.login("marketcube.qa@gmail.com", "Password1234!");
-            isLogin=true;
-        }
+
     }
 
     @And("^User reaches to add vendor page$")
@@ -43,6 +41,7 @@ public class InviteVendorSteps {
 
     @When("^User invites vendor to register the form$")
     public void userInvitesVendorToRegisterTheForm() {
+        inviteVendorPage.inviteDropdown();
         inviteVendorPage.inviteVendor();
     }
 
@@ -72,7 +71,6 @@ public class InviteVendorSteps {
     @Then("^Vendor is on the dashboard$")
     public void vendorIsOnTheDashboard() {
         dashboardPage.dashboardIsVisible();
-//        inviteVendorPage.logout();
 
     }
 

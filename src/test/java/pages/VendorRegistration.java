@@ -5,11 +5,14 @@ import utilities.ConfigLoader;
 import com.typesafe.config.Config;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.support.FindBy;
+import utilities.LoadProperties;
 
 
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import static utilities.LoadProperties.getValueFromPropertyFile;
 
 public class VendorRegistration extends PageObject {
     @FindBy(xpath = "//input[@id='inboxfield']")
@@ -32,6 +35,7 @@ public class VendorRegistration extends PageObject {
     public WebElementFacade registerButton;
 
 
+
     InviteVendorPage inviteVendorPage;
     private static Config conf = ConfigLoader.load();
 
@@ -45,7 +49,7 @@ public class VendorRegistration extends PageObject {
 
         emailSearch.sendKeys(inviteVendorPage.emailId);
         goButton.click();
-        waitABit(5000);
+        waitABit(7000);
         mailSubject.click();
     }
 
@@ -67,9 +71,11 @@ public class VendorRegistration extends PageObject {
         System.out.println(childID);
         getDriver().switchTo().window(childID);
 
-        waitABit(8000);
-        waitFor(setPassword).sendKeys("abcdefgh");
-        waitFor(confirmPassword).sendKeys("abcdefgh");
+        waitABit(5000);
+        String vendorPasswordValue =getValueFromPropertyFile("testData","setPassword");
+        setPassword.sendKeys(vendorPasswordValue);
+        String confirmPasswordValue =getValueFromPropertyFile("testData","setPassword");
+        confirmPassword.sendKeys(confirmPasswordValue);
         if(!waitFor(checkbox).isSelected());
         {
             checkbox.click();

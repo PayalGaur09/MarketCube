@@ -102,7 +102,7 @@
                 <configuration>
                     <includes>
                         <!--<include>**/Connectors/junit/**/*.java</include>-->
-                        <include>**/dsv/RunTests.java</include>
+                        <include>**/RunTests.java</include>
                     </includes>
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
@@ -149,7 +149,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>

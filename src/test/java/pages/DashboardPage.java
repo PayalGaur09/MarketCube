@@ -13,7 +13,8 @@ public class DashboardPage extends PageObject{
 
 
     public void dashboardIsVisible() {
-        waitFor(dashboardText).isVisible();
+        dashboardText.waitUntilClickable();
+        //waitFor(dashboardText).isVisible();
         Assert.assertTrue(dashboardText.isVisible());
     }
 }

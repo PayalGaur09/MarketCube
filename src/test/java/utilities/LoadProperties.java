@@ -1,5 +1,6 @@
 package utilities;
 
+import net.serenitybdd.core.pages.WebElementFacade;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
 import java.io.File;
@@ -11,7 +12,7 @@ import java.util.Properties;
 
 public class LoadProperties {
     public static String saveQueryfile = "src" + File.separator + "test" + File.separator + "resources" + File.separator + "testData" + File.separator + "testData.properties";
-
+    public static Properties envProps, properties;
     public static String getValueFromPropertyFile(String fileName, String key) {
         String value = "";
         try {
@@ -53,7 +54,12 @@ public class LoadProperties {
     }
 
 
-
-
+    public static String getProp(String key) {
+        if ((key == null) || (key.isEmpty())) {
+            return "";
+        } else {
+            return properties.getProperty(key);
+        }
+}
 }
 
