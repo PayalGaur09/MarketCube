@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Invite vendor using form" skipped="0" tests="2" time="186.92" timestamp="2019-08-07 07:21:09"><testcase name="User invites already registered vendor"/><testcase name="Invite vendor using form and register using the invitation"/></testsuite>

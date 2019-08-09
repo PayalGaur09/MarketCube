@@ -1,0 +1,8 @@
+utilities\LoadProperties.class
+pages\InviteVendorPage.class
+pages\DashboardPage.class
+pages\VendorRegistration.class
+utilities\RandomGenerator.class
+steps\InviteVendorSteps.class
+utilities\ConfigLoader.class
+RunTests.class

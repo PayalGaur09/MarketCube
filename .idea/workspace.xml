@@ -1,10 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+  <component name="ChangeListManager">
+    <list default="true" id="31375e7a-3d85-4bee-bbc3-c0c82f3c62bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InviteVendorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InviteVendorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VendorRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VendorRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/InviteVendorSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/InviteVendorSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/LoadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/LoadProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/inviteVendor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/web/inviteVendor.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/testData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Assessment.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MarketCubePayal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/feature/inviteVendor.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/InviteVendorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/InviteVendorPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/VendorRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/VendorRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/InviteVendorSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/InviteVendorSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testData/TestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testData/TestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testData/env.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/LoadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/LoadProperties.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/feature/web/inviteVendor.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RunTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/InviteVendorPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/VendorRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/InviteVendorSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+              <folding>
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#2638#2639#0" expanded="true" />
+                <element signature="e#2689#2690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1188">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/VendorRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RunTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/InviteVendorPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/InviteVendorSteps.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="210" />
+    <option name="y" value="41" />
+    <option name="width" value="906" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketCubePayal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565185848231" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Payal\Desktop\payal\Assessment\src\test\resources\feature\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: inviteVendor">
+    <configuration name="Feature: inviteVendor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/web/inviteVendor.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MarketCubePayal" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: inviteVendor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarketCubePayal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarketCubePayal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: inviteVendor" />
+        <item itemvalue="JUnit.RunTests" />
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31375e7a-3d85-4bee-bbc3-c0c82f3c62bf" name="Default Changelist" comment="" />
+      <created>1565180082575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565180082575</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 11m 19s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 22m 55s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RunTests - 2019.08.07 at 18h 25m 13s.xml">
+      <configuration name="RunTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 29m 30s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 38m 38s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 44m 08s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 18h 48m 41s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 19h 07m 11s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 19h 11m 03s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__inviteVendor - 2019.08.07 at 19h 15m 15s.xml">
+      <configuration name="Feature: inviteVendor" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4811784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39770868" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.7/serenity-core-1.9.7.jar!/net/serenitybdd/core/pages/PageObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="318" column="14" selection-start-line="318" selection-start-column="11" selection-end-line="318" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-junit/1.9.7/serenity-junit-1.9.7.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.7/serenity-core-1.9.7.jar!/net/thucydides/core/scheduling/ThucydidesFluentWait.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/VendorRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/web/inviteVendor.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/InviteVendorSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/InviteVendorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
